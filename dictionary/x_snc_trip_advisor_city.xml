@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="City" max_length="40" name="x_snc_trip_advisor_city" type="collection">
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Flexible Map" max_length="32" name="flexible_map" reference="flexible_map" type="reference"/>
+        <element label="GoogleMap" max_length="1024" name="googlemap" type="url"/>
+        <element label="GPS" max_length="40" name="gps" type="boolean"/>
+        <element label="Info Overview" max_length="4000" name="info_overview" type="string"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <index name="index">
+            <element name="flexible_map"/>
+        </index>
+    </element>
+</database>

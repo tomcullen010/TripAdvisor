@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Itinerary Activity" max_length="40" name="x_snc_trip_advisor_itinerary_activity" type="collection">
+        <element label="Itinerary Parent" max_length="32" name="itinerary_parent" reference="x_snc_trip_advisor_table" type="reference"/>
+        <element label="Reservation Number" max_length="40" name="reservation_number" type="string"/>
+        <element label="Time In" max_length="40" name="time_in" type="glide_date_time"/>
+        <element label="Time Out" max_length="40" name="time_out" type="glide_date_time"/>
+        <element label="Transportation Type" max_length="40" name="transportation_type" type="string"/>
+        <index name="index">
+            <element name="itinerary_parent"/>
+        </index>
+    </element>
+</database>

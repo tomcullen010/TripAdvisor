@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="x_snc_trip_advisor_sites">sys_tags.b7c097ff4f71f2002d1d958f0310c792=b7c097ff4f71f2002d1d958f0310c792^EQ<item display_table="label" display_value="Trip Advisor Recomended" endquery="false" field="sys_tags.b7c097ff4f71f2002d1d958f0310c792" goto="false" newquery="false" operator="=" or="false" value="b7c097ff4f71f2002d1d958f0310c792"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-05 17:38:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ba4dc044f06f2002d1d958f0310c76b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recommended Sites</sys_name>
+        <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
+        <sys_update_name>sys_filter_5ba4dc044f06f2002d1d958f0310c76b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-05 17:38:35</sys_updated_on>
+        <table>x_snc_trip_advisor_sites</table>
+        <title>Recommended Sites</title>
+        <user/>
+    </sys_filter>
+</record_update>

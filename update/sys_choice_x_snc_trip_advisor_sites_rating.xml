@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="rating" table="x_snc_trip_advisor_sites" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rating</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Bad</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_sites</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 16:26:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7cd3c8c84fc2f2002d1d958f0310c786</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 16:27:14</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Not Bad</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rating</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Just OK</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_sites</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 16:26:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50244cc84fc2f2002d1d958f0310c7fb</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 16:27:20</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Just OK</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rating</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Good</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_sites</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 16:26:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a52488c84fc2f2002d1d958f0310c76f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 16:27:26</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Good</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rating</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Very Good</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_sites</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 16:26:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f134ccc84fc2f2002d1d958f0310c73d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 16:27:30</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Very Good</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rating</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Excellent !</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_sites</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 16:27:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e044ccc84fc2f2002d1d958f0310c794</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 16:27:34</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Excellent !</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>rating</element>
+            <name>x_snc_trip_advisor_sites</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 16:26:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2214c8c84fc2f2002d1d958f0310c78a</sys_id>
+            <sys_mod_count>18</sys_mod_count>
+            <sys_name>rating</sys_name>
+            <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
+            <sys_update_name>sys_choice_x_snc_trip_advisor_sites_rating</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 16:27:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

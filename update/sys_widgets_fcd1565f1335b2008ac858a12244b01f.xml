@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_widgets">
+    <sys_widgets action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>FlexMap Boston Map</name>
+        <order>100</order>
+        <renderer/>
+        <renderer_type>javascript</renderer_type>
+        <roles/>
+        <script><![CDATA[function sections() {
+    return {
+      'Boston Map' : { 'name' : 'render_gadget_Boston_Map' }
+    };
+}
+
+function render() {
+  var name = renderer.getPreferences().get("name")
+  var gf = new GlideForm(renderer.getGC(), name, 0);
+  gf.setDirect(true);
+  gf.setRenderProperties(renderer.getRenderProperties());
+  return gf.getRenderedPage();
+}
+
+function getEditLink() {
+  if (!gs.hasRole('admin'))
+     return '';
+
+  return "sys_ui_page.do?sysparm_query=name=" + renderer.getPreferences().get("name");
+}]]></script>
+        <sys_class_name>sys_widgets</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-03 18:49:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>fcd1565f1335b2008ac858a12244b01f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlexMap Boston Map</sys_name>
+        <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
+        <sys_update_name>sys_widgets_fcd1565f1335b2008ac858a12244b01f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-03 18:49:56</sys_updated_on>
+        <top_level_category>false</top_level_category>
+    </sys_widgets>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Trip Advisor Itinerary" max_length="40" name="x_snc_trip_advisor_table" type="collection">
+        <element label="Age Group" max_length="40" name="age_group" type="string"/>
+        <element label="From Date" max_length="40" name="from_date" type="glide_date"/>
+        <element label="Geo-Focus" max_length="32" name="geo_focus" reference="x_snc_trip_advisor_neighborhoods" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Profile" max_length="32" name="profile" reference="x_snc_trip_advisor_profile" type="reference"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="To Date" max_length="40" name="to_date" type="glide_date"/>
+        <index name="index">
+            <element name="profile"/>
+        </index>
+        <index name="index2">
+            <element name="geo_focus"/>
+        </index>
+    </element>
+</database>

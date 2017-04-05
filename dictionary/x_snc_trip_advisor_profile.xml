@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Profile" max_length="40" name="x_snc_trip_advisor_profile" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element choice="1" label="Age Group" max_length="40" name="age_group" type="choice">
+            <choice>
+                <element label="Family" value="Family"/>
+                <element label="Baby Boomer - 53+" sequence="100" value="Baby Boomer"/>
+                <element label="Generation X - 38 - 52" sequence="200" value="Generation X"/>
+                <element label="Generation Y - 22 - 37" sequence="300" value="Generation Y"/>
+                <element label="Generation Z 7 - 21" sequence="400" value="Generation Z"/>
+            </choice>
+        </element>
+        <element label="City Section focus?" max_length="32" name="geo_focus" reference="x_snc_trip_advisor_neighborhoods" type="reference"/>
+        <element label="Length of Stay" max_length="40" name="length_of_stay" type="integer"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Name" max_length="32" name="name" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Pets" max_length="40" name="pets" type="boolean"/>
+        <element choice="2" label="Primary Reason for Visit" max_length="40" name="primary_reason_for_visit" type="string">
+            <choice/>
+        </element>
+        <element label="Search Tags" max_length="40" name="search_tags" type="string"/>
+        <element choice="1" label="Traveling Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Couple" value="Couple"/>
+                <element label="Family" value="Family"/>
+                <element label="Group" value="Group"/>
+                <element label="Solo" value="Solo"/>
+            </choice>
+        </element>
+        <element label="Trip Advisor Itinerary" max_length="32" name="trip_advisor_itinerary" reference="x_snc_trip_advisor_table" type="reference"/>
+        <element label="Visting City" max_length="32" name="visting_city" reference="x_snc_trip_advisor_city" type="reference"/>
+        <index name="index">
+            <element name="trip_advisor_itinerary"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
+        <index name="index3">
+            <element name="visting_city"/>
+        </index>
+        <index name="index4">
+            <element name="geo_focus"/>
+        </index>
+    </element>
+</database>
