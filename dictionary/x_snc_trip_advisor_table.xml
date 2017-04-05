@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Trip Advisor Itinerary" max_length="40" name="x_snc_trip_advisor_table" type="collection">
-        <element label="Age Group" max_length="40" name="age_group" type="string"/>
+        <element choice="1" label="Age Group" max_length="40" name="age_group" type="choice">
+            <choice>
+                <element label="Baby Boomer - 53+" value="Baby Boomer"/>
+                <element label="Family" value="Family"/>
+                <element label="Generation X 38 - 52" value="Generation X"/>
+                <element label="Generation Y 22 - 37" value="Generation Y"/>
+                <element label="Generation Z 7 - 21" value="Generation Z"/>
+            </choice>
+        </element>
         <element label="From Date" max_length="40" name="from_date" type="glide_date"/>
-        <element label="Geo-Focus" max_length="32" name="geo_focus" reference="x_snc_trip_advisor_neighborhoods" type="reference"/>
-        <element label="Name" max_length="40" name="name" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="City Section focus?" max_length="32" name="geo_focus" reference="x_snc_trip_advisor_neighborhoods" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Pets" max_length="40" name="pets" type="boolean"/>
+        <element label="Primary reason for visit" max_length="40" name="primary_reason_for_visit" type="string"/>
         <element label="Profile" max_length="32" name="profile" reference="x_snc_trip_advisor_profile" type="reference"/>
+        <element label="Search Tags" max_length="40" name="search_tags" type="string"/>
         <element label="Status" max_length="40" name="status" type="string"/>
         <element label="To Date" max_length="40" name="to_date" type="glide_date"/>
+        <element choice="1" label="Traveling Status" max_length="40" name="traveling_status" type="choice">
+            <choice>
+                <element label="Family" sequence="1" value="Family"/>
+                <element label="Couple" sequence="2" value="Couple"/>
+                <element label="Group" sequence="3" value="Group"/>
+                <element label="Solo" sequence="4" value="Solo"/>
+            </choice>
+        </element>
+        <element label="Visiting City" max_length="32" name="visiting_city" reference="x_snc_trip_advisor_city" type="reference"/>
         <index name="index">
-            <element name="profile"/>
+            <element name="visiting_city"/>
         </index>
         <index name="index2">
+            <element name="profile"/>
+        </index>
+        <index name="index3">
             <element name="geo_focus"/>
         </index>
     </element>

@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Itinerary Activity" max_length="40" name="x_snc_trip_advisor_itinerary_activity" type="collection">
+        <element label="Activity Site" max_length="32" name="activity_site" reference="x_snc_trip_advisor_sites" type="reference"/>
         <element label="Itinerary Parent" max_length="32" name="itinerary_parent" reference="x_snc_trip_advisor_table" type="reference"/>
+        <element choice="1" label="Rating" max_length="40" name="rating" type="choice">
+            <choice>
+                <element label="Not Bad" sequence="1" value="Not Bad"/>
+                <element label="Just OK" sequence="2" value="Just OK"/>
+                <element label="Good" sequence="3" value="Good"/>
+                <element label="Very Good" sequence="4" value="Very Good"/>
+                <element label="Excellent !" sequence="5" value="Excellent !"/>
+            </choice>
+        </element>
         <element label="Reservation Number" max_length="40" name="reservation_number" type="string"/>
         <element label="Time In" max_length="40" name="time_in" type="glide_date_time"/>
         <element label="Time Out" max_length="40" name="time_out" type="glide_date_time"/>
         <element label="Transportation Type" max_length="40" name="transportation_type" type="string"/>
         <index name="index">
             <element name="itinerary_parent"/>
+        </index>
+        <index name="index2">
+            <element name="activity_site"/>
         </index>
     </element>
 </database>

@@ -2,72 +2,72 @@
 <record_update>
     <sys_ui_section caption="" section_id="6aef0ddb13b1b2008ac858a12244b0b8" sys_domain="global" table="x_snc_trip_advisor_table" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-03 14:01:59</sys_created_on>
-            <sys_id>6eef0ddb13b1b2008ac858a12244b0bd</sys_id>
+            <sys_created_on>2017-04-05 19:28:40</sys_created_on>
+            <sys_id>b3dd68804f46f2002d1d958f0310c7b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_table" sys_domain="global" view="Default view">6aef0ddb13b1b2008ac858a12244b0b8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-03 14:01:59</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-03 14:01:59</sys_created_on>
-            <sys_id>eeef0ddb13b1b2008ac858a12244b0bd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_table" sys_domain="global" view="Default view">6aef0ddb13b1b2008ac858a12244b0b8</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-03 14:01:59</sys_updated_on>
+            <sys_updated_on>2017-04-05 19:28:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 19:28:40</sys_created_on>
+            <sys_id>37dd68804f46f2002d1d958f0310c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_table" sys_domain="global" view="Default view">6aef0ddb13b1b2008ac858a12244b0b8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 19:28:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>age_group</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-03 14:01:59</sys_created_on>
-            <sys_id>62ef0ddb13b1b2008ac858a12244b0be</sys_id>
+            <sys_created_on>2017-04-05 19:28:40</sys_created_on>
+            <sys_id>b7dd68804f46f2002d1d958f0310c7b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_table" sys_domain="global" view="Default view">6aef0ddb13b1b2008ac858a12244b0b8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-03 14:01:59</sys_updated_on>
+            <sys_updated_on>2017-04-05 19:28:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>from_date</element>
+            <element>traveling_status</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-03 14:01:59</sys_created_on>
-            <sys_id>e2ef0ddb13b1b2008ac858a12244b0be</sys_id>
+            <sys_created_on>2017-04-05 19:28:40</sys_created_on>
+            <sys_id>3bdd68804f46f2002d1d958f0310c7b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_table" sys_domain="global" view="Default view">6aef0ddb13b1b2008ac858a12244b0b8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-03 14:01:59</sys_updated_on>
+            <sys_updated_on>2017-04-05 19:28:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>to_date</element>
+            <element>pets</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-03 14:01:59</sys_created_on>
-            <sys_id>66ef0ddb13b1b2008ac858a12244b0be</sys_id>
+            <sys_created_on>2017-04-05 19:28:40</sys_created_on>
+            <sys_id>bbdd68804f46f2002d1d958f0310c7b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_table" sys_domain="global" view="Default view">6aef0ddb13b1b2008ac858a12244b0b8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-03 14:01:59</sys_updated_on>
+            <sys_updated_on>2017-04-05 19:28:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,27 +75,27 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-03 14:01:59</sys_created_on>
-            <sys_id>e6ef0ddb13b1b2008ac858a12244b0be</sys_id>
+            <sys_created_on>2017-04-05 19:28:40</sys_created_on>
+            <sys_id>3fdd68804f46f2002d1d958f0310c7b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_table" sys_domain="global" view="Default view">6aef0ddb13b1b2008ac858a12244b0b8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-03 14:01:59</sys_updated_on>
+            <sys_updated_on>2017-04-05 19:28:40</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>age_group</element>
+            <element>visiting_city</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-03 14:01:59</sys_created_on>
-            <sys_id>6aef0ddb13b1b2008ac858a12244b0be</sys_id>
+            <sys_created_on>2017-04-05 19:28:40</sys_created_on>
+            <sys_id>bfdd68804f46f2002d1d958f0310c7b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_table" sys_domain="global" view="Default view">6aef0ddb13b1b2008ac858a12244b0b8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-03 14:01:59</sys_updated_on>
+            <sys_updated_on>2017-04-05 19:28:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,57 +103,57 @@
             <element>geo_focus</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-03 14:01:59</sys_created_on>
-            <sys_id>eaef0ddb13b1b2008ac858a12244b0be</sys_id>
+            <sys_created_on>2017-04-05 19:28:40</sys_created_on>
+            <sys_id>33dd68804f46f2002d1d958f0310c7b6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_table" sys_domain="global" view="Default view">6aef0ddb13b1b2008ac858a12244b0b8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-03 14:01:59</sys_updated_on>
+            <sys_updated_on>2017-04-05 19:28:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
+            <element>primary_reason_for_visit</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-03 14:01:59</sys_created_on>
-            <sys_id>6eef0ddb13b1b2008ac858a12244b0be</sys_id>
+            <sys_created_on>2017-04-05 19:28:40</sys_created_on>
+            <sys_id>b3dd68804f46f2002d1d958f0310c7b6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_table" sys_domain="global" view="Default view">6aef0ddb13b1b2008ac858a12244b0b8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-03 14:01:59</sys_updated_on>
+            <sys_updated_on>2017-04-05 19:28:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>profile</element>
+            <element>from_date</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-03 14:01:59</sys_created_on>
-            <sys_id>eeef0ddb13b1b2008ac858a12244b0be</sys_id>
+            <sys_created_on>2017-04-05 19:28:40</sys_created_on>
+            <sys_id>37dd68804f46f2002d1d958f0310c7b6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_table" sys_domain="global" view="Default view">6aef0ddb13b1b2008ac858a12244b0b8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-03 14:01:59</sys_updated_on>
+            <sys_updated_on>2017-04-05 19:28:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
+            <element>to_date</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-03 14:01:59</sys_created_on>
-            <sys_id>62ef0ddb13b1b2008ac858a12244b0bf</sys_id>
+            <sys_created_on>2017-04-05 19:28:40</sys_created_on>
+            <sys_id>b7dd68804f46f2002d1d958f0310c7b6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_table" sys_domain="global" view="Default view">6aef0ddb13b1b2008ac858a12244b0b8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-03 14:01:59</sys_updated_on>
+            <sys_updated_on>2017-04-05 19:28:40</sys_updated_on>
             <sys_user/>
-            <type>.end_split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

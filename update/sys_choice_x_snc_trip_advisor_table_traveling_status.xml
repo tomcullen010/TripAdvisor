@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="traveling_status" table="x_snc_trip_advisor_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>traveling_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Family</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 19:15:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44eae8004f46f2002d1d958f0310c75b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 19:16:24</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Family</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>traveling_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Couple</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 19:15:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5da2c004f46f2002d1d958f0310c751</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 19:16:29</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Couple</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>traveling_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Group</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 19:15:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0aea6c004f46f2002d1d958f0310c744</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 19:16:32</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Group</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>traveling_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solo</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_table</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 19:16:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24fa6c004f46f2002d1d958f0310c74f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 19:16:37</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Solo</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>traveling_status</element>
+            <name>x_snc_trip_advisor_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 19:15:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>48ea2c004f46f2002d1d958f0310c752</sys_id>
+            <sys_mod_count>16</sys_mod_count>
+            <sys_name>traveling_status</sys_name>
+            <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
+            <sys_update_name>sys_choice_x_snc_trip_advisor_table_traveling_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 19:16:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

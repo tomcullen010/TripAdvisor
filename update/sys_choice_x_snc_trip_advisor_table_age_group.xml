@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="age_group" table="x_snc_trip_advisor_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>age_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Baby Boomer - 53+</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_table</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 19:08:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6296ccc4f06f2002d1d958f0310c7b9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 19:08:41</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Baby Boomer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>age_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Family</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_table</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 19:07:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34192ccc4f06f2002d1d958f0310c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 19:07:51</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Family</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>age_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Generation X 38 - 52</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_table</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 19:09:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b329e8cc4f06f2002d1d958f0310c7f7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 19:09:42</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Generation X</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>age_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Generation Y 22 - 37</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_table</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 19:09:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f169accc4f06f2002d1d958f0310c7f3</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 19:10:24</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Generation Y</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>age_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Generation Z 7 - 21</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_table</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 19:10:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>678960004f46f2002d1d958f0310c720</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 19:10:53</sys_updated_on>
+            <u_translation_log_id/>
+            <value>Generation Z</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>age_group</element>
+            <name>x_snc_trip_advisor_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-05 19:07:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>32192ccc4f06f2002d1d958f0310c7b6</sys_id>
+            <sys_mod_count>14</sys_mod_count>
+            <sys_name>age_group</sys_name>
+            <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
+            <sys_update_name>sys_choice_x_snc_trip_advisor_table_age_group</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-05 19:10:53</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
