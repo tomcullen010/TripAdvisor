@@ -10,6 +10,7 @@
                 <element label="Generation Z 7 - 21" value="Generation Z"/>
             </choice>
         </element>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Caller" max_length="32" name="caller" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element label="From Date" max_length="40" name="from_date" type="glide_date"/>
         <element label="City Section focus?" max_length="32" name="geo_focus" reference="x_snc_trip_advisor_neighborhoods" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
@@ -29,12 +30,15 @@
         </element>
         <element label="Visiting City" max_length="32" name="visiting_city" reference="x_snc_trip_advisor_city" type="reference"/>
         <index name="index">
-            <element name="visiting_city"/>
+            <element name="caller"/>
         </index>
         <index name="index2">
-            <element name="profile"/>
+            <element name="visiting_city"/>
         </index>
         <index name="index3">
+            <element name="profile"/>
+        </index>
+        <index name="index4">
             <element name="geo_focus"/>
         </index>
     </element>
