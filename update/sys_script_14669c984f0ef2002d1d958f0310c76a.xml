@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_trip_advisor_table</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>Highly rated activities have been added to your itinerary</p>]]></message>
+        <name>Add Recommended Activities to Itinerary</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	// This code will change .. example to add highly rated activities
+	// automatically to a new itinerary.  Will change to include Search Tags
+	//
+	var gr = new GlideRecord('x_snc_trip_advisor_sites');
+	gr.addEncodedQuery('ratingINVery Good,Excellent !');
+	gr.query();
+	var count=0;
+	while (gr.next()) {
+	  var tia = new GlideRecord('x_snc_trip_advisor_itinerary_activity');
+	  tia.initialize();
+	  tia.activity_site = gr.sys_id;
+	  tia.itinerary_parent = current.sys_id;
+	  tia.insert();
+
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-06 12:32:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>14669c984f0ef2002d1d958f0310c76a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Recommended Activities to Itinerary</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
+        <sys_update_name>sys_script_14669c984f0ef2002d1d958f0310c76a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-06 12:32:02</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=14669c984f0ef2002d1d958f0310c76a"/>
+</record_update>

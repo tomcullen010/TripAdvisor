@@ -2,16 +2,16 @@
 <record_update>
     <sys_ui_section caption="" section_id="7a5a2d5b13f1b2008ac858a12244b043" sys_domain="global" table="x_snc_trip_advisor_itinerary_activity" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>itinerary_parent</element>
+            <element>activity_site</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-05 20:45:39</sys_created_on>
-            <sys_id>1b7f3c0c4f46f2002d1d958f0310c7c6</sys_id>
+            <sys_created_on>2017-04-06 12:19:16</sys_created_on>
+            <sys_id>6b25d0984f0ef2002d1d958f0310c734</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-05 20:45:39</sys_updated_on>
+            <sys_updated_on>2017-04-06 12:19:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,41 +19,41 @@
             <element>activity_site.neighborhood</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-05 20:45:39</sys_created_on>
-            <sys_id>9b7f3c0c4f46f2002d1d958f0310c7c6</sys_id>
+            <sys_created_on>2017-04-06 12:19:16</sys_created_on>
+            <sys_id>eb25d0984f0ef2002d1d958f0310c734</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-05 20:45:39</sys_updated_on>
+            <sys_updated_on>2017-04-06 12:19:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>activity_site</element>
+            <element>activity_site.address</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-05 20:45:39</sys_created_on>
-            <sys_id>1f7f3c0c4f46f2002d1d958f0310c7c6</sys_id>
+            <sys_created_on>2017-04-06 12:19:16</sys_created_on>
+            <sys_id>6f25d0984f0ef2002d1d958f0310c734</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-05 20:45:39</sys_updated_on>
+            <sys_updated_on>2017-04-06 12:19:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>rating</element>
+            <element>activity_site.cost</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-05 20:45:39</sys_created_on>
-            <sys_id>9f7f3c0c4f46f2002d1d958f0310c7c6</sys_id>
+            <sys_created_on>2017-04-06 12:19:16</sys_created_on>
+            <sys_id>ef25d0984f0ef2002d1d958f0310c734</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-05 20:45:39</sys_updated_on>
+            <sys_updated_on>2017-04-06 12:19:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,125 +61,111 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-05 20:45:39</sys_created_on>
-            <sys_id>137f3c0c4f46f2002d1d958f0310c7c7</sys_id>
+            <sys_created_on>2017-04-06 12:19:16</sys_created_on>
+            <sys_id>6325d0984f0ef2002d1d958f0310c735</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-05 20:45:39</sys_updated_on>
+            <sys_updated_on>2017-04-06 12:19:16</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>activity_site.address</element>
+            <element>itinerary_parent</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-05 20:45:39</sys_created_on>
-            <sys_id>937f3c0c4f46f2002d1d958f0310c7c7</sys_id>
+            <sys_created_on>2017-04-06 12:19:16</sys_created_on>
+            <sys_id>e325d0984f0ef2002d1d958f0310c735</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-05 20:45:39</sys_updated_on>
+            <sys_updated_on>2017-04-06 12:19:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-06 12:19:16</sys_created_on>
+            <sys_id>6725d0984f0ef2002d1d958f0310c735</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-06 12:19:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity_site.telephone</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-05 20:45:39</sys_created_on>
-            <sys_id>177f3c0c4f46f2002d1d958f0310c7c7</sys_id>
+            <sys_created_on>2017-04-06 12:19:16</sys_created_on>
+            <sys_id>e725d0984f0ef2002d1d958f0310c735</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-05 20:45:39</sys_updated_on>
+            <sys_updated_on>2017-04-06 12:19:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity_site.website</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-05 20:45:39</sys_created_on>
-            <sys_id>977f3c0c4f46f2002d1d958f0310c7c7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-05 20:45:39</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>time_in</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-05 20:45:39</sys_created_on>
-            <sys_id>1b7f3c0c4f46f2002d1d958f0310c7c7</sys_id>
+            <sys_created_on>2017-04-06 12:19:16</sys_created_on>
+            <sys_id>6b25d0984f0ef2002d1d958f0310c735</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-05 20:45:39</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>time_out</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-05 20:45:39</sys_created_on>
-            <sys_id>9b7f3c0c4f46f2002d1d958f0310c7c7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-05 20:45:39</sys_updated_on>
+            <sys_updated_on>2017-04-06 12:19:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-05 20:45:39</sys_created_on>
-            <sys_id>1f7f3c0c4f46f2002d1d958f0310c7c7</sys_id>
+            <sys_created_on>2017-04-06 12:19:16</sys_created_on>
+            <sys_id>eb25d0984f0ef2002d1d958f0310c735</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-05 20:45:39</sys_updated_on>
+            <sys_updated_on>2017-04-06 12:19:16</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity_site.info_overview</element>
-            <position>11</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-05 20:45:39</sys_created_on>
-            <sys_id>9f7f3c0c4f46f2002d1d958f0310c7c7</sys_id>
+            <sys_created_on>2017-04-06 12:19:16</sys_created_on>
+            <sys_id>6f25d0984f0ef2002d1d958f0310c735</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-05 20:45:39</sys_updated_on>
+            <sys_updated_on>2017-04-06 12:19:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity_site.googlemap</element>
-            <position>12</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-05 20:45:39</sys_created_on>
-            <sys_id>137f3c0c4f46f2002d1d958f0310c7c8</sys_id>
+            <sys_created_on>2017-04-06 12:19:16</sys_created_on>
+            <sys_id>ef25d0984f0ef2002d1d958f0310c735</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_trip_advisor_itinerary_activity" sys_domain="global" view="Default view">7a5a2d5b13f1b2008ac858a12244b043</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-05 20:45:39</sys_updated_on>
+            <sys_updated_on>2017-04-06 12:19:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
