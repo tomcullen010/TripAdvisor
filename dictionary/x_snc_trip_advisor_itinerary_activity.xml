@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Itinerary Activity" max_length="40" name="x_snc_trip_advisor_itinerary_activity" type="collection">
+    <element attributes="hasLabels=true" label="Itinerary Activity" max_length="40" name="x_snc_trip_advisor_itinerary_activity" type="collection">
         <element label="Activity Site" max_length="32" name="activity_site" read_only="true" reference="x_snc_trip_advisor_sites" type="reference"/>
         <element label="Caller" max_length="32" name="caller" read_only="true" reference="sys_user" type="reference"/>
         <element label="Itinerary Parent" max_length="32" name="itinerary_parent" read_only="true" reference="x_snc_trip_advisor_table" reference_cascade_rule="delete_no_workflow" type="reference"/>
