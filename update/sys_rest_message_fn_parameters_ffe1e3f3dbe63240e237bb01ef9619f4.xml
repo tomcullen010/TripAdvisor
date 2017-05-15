@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>location</name>
+        <rest_message_function display_value="getPlaceNearbysearch">0eadd7bfdba63240e237bb01ef9619d3</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2017-05-12 20:44:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ffe1e3f3dbe63240e237bb01ef9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>location</sys_name>
+        <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_ffe1e3f3dbe63240e237bb01ef9619f4</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2017-05-12 20:44:35</sys_updated_on>
+        <type>string</type>
+        <value>42.362991,-71.0573082</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

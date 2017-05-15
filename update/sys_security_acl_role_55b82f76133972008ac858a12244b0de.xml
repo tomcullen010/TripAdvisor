@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-02 11:52:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>55b82f76133972008ac858a12244b0de</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_trip_advisor_table.x_snc_trip_advisor.user</sys_name>

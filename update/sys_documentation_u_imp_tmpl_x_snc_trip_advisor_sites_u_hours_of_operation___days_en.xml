@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_hours_of_operation___days" label="Hours of Operation - Days" language="en" table="u_imp_tmpl_x_snc_trip_advisor_sites">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_hours_of_operation___days</element>
+            <help/>
+            <hint/>
+            <label>Hours of Operation - Days</label>
+            <language>en</language>
+            <name>u_imp_tmpl_x_snc_trip_advisor_sites</name>
+            <plural>Hours of Operation - Days</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2017-04-06 17:03:21</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>b8369198db067e009093b3d0ef96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Hours of Operation - Days</sys_name>
+            <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_x_snc_trip_advisor_sites_u_hours_of_operation___days_en</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2017-04-06 17:03:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

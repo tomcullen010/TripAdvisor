@@ -52,17 +52,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-05 21:14:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>abb545044f86f2002d1d958f0310c77f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>29b1d15cdbc27e009093b3d0ef961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Activity Number</sys_name>
         <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_trip_advisor_itinerary_activity_number</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-06 12:02:57</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-04-06 16:44:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

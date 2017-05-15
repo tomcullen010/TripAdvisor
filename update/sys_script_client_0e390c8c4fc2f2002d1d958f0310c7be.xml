@@ -14,8 +14,7 @@
    if (isLoading || newValue === '') {
       return;
    }
-
-   //Type appropriate comment here, and begin script below
+	
    if (g_form.getValue('gps')) {
 	   var googleURL = g_form.getValue('googlemap');
        var pos = googleURL.search('@');
@@ -27,8 +26,9 @@
        g_form.setValue('longitude', arr[1]);
 	   
    } 
-		
-      
+
+   //Type appropriate comment here, and begin script below
+   
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -37,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0e390c8c4fc2f2002d1d958f0310c7be</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Parse and store Lat-Long</sys_name>
         <sys_overrides/>
         <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
@@ -45,8 +45,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
         <sys_update_name>sys_script_client_0e390c8c4fc2f2002d1d958f0310c7be</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-05 16:48:33</sys_updated_on>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2017-04-06 19:10:10</sys_updated_on>
         <table>x_snc_trip_advisor_sites</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

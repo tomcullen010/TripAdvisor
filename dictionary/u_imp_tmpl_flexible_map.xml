@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl Flexible Map" max_length="40" name="u_imp_tmpl_flexible_map" type="collection">
+        <element attributes="import_attribute_name=Allow popups,edge_encryption_enabled=true" label="Allow popups" max_length="40" name="u_allow_popups" type="string"/>
+        <element attributes="import_attribute_name=Created" label="Created" max_length="40" name="u_created" type="glide_date_time"/>
+        <element attributes="import_attribute_name=Created by,edge_encryption_enabled=true" label="Created by" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="import_attribute_name=Description,edge_encryption_enabled=true" label="Description" max_length="100" name="u_description" type="string"/>
+        <element attributes="import_attribute_name=Geo Data,edge_encryption_enabled=true" label="Geo Data" max_length="8000" name="u_geo_data" type="string"/>
+        <element attributes="import_attribute_name=Has widget,edge_encryption_enabled=true" label="Has widget" max_length="40" name="u_has_widget" type="string"/>
+        <element attributes="import_attribute_name=Image URL,edge_encryption_enabled=true" label="Image URL" max_length="1024" name="u_image_url" type="string"/>
+        <element attributes="import_attribute_name=Latitude" label="Latitude" max_length="40" name="u_latitude" type="float"/>
+        <element attributes="import_attribute_name=Line/Marker color,edge_encryption_enabled=true" label="Line/Marker color" max_length="40" name="u_line_marker_color" type="string"/>
+        <element attributes="import_attribute_name=Lock map,edge_encryption_enabled=true" label="Lock map" max_length="40" name="u_lock_map" type="string"/>
+        <element attributes="import_attribute_name=Longitude" label="Longitude" max_length="40" name="u_longitude" type="float"/>
+        <element attributes="import_attribute_name=Map,edge_encryption_enabled=true" label="Map" max_length="40" name="u_map" type="string"/>
+        <element attributes="import_attribute_name=Map type,edge_encryption_enabled=true" label="Map type" max_length="40" name="u_map_type" type="string"/>
+        <element attributes="import_attribute_name=Map URL,edge_encryption_enabled=true" label="Map URL" max_length="1024" name="u_map_url" type="string"/>
+        <element attributes="import_attribute_name=Marker size,edge_encryption_enabled=true" label="Marker size" max_length="40" name="u_marker_size" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="80" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=Read roles,edge_encryption_enabled=true" label="Read roles" max_length="1024" name="u_read_roles" type="string"/>
+        <element attributes="import_attribute_name=Updated" label="Updated" max_length="40" name="u_updated" type="glide_date_time"/>
+        <element attributes="import_attribute_name=Updated by,edge_encryption_enabled=true" label="Updated by" max_length="40" name="u_updated_by" type="string"/>
+        <element attributes="import_attribute_name=Updates" label="Updates" max_length="40" name="u_updates" type="integer"/>
+        <element attributes="import_attribute_name=Write roles,edge_encryption_enabled=true" label="Write roles" max_length="1024" name="u_write_roles" type="string"/>
+        <element attributes="import_attribute_name=Zoom" label="Zoom" max_length="40" name="u_zoom" type="integer"/>
+    </element>
+</database>

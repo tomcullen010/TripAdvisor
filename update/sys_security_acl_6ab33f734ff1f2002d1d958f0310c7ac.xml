@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-05 15:14:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6ab33f734ff1f2002d1d958f0310c7ac</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_trip_advisor_site_types</sys_name>

@@ -10,6 +10,9 @@
         <element label="Name" max_length="40" name="name" type="string"/>
         <element label="Parent City" max_length="40" name="parent_city" reference="x_snc_trip_advisor_city" type="reference"/>
         <index name="index">
+            <element name="parent_city"/>
+        </index>
+        <index name="index2">
             <element name="flexible_map"/>
         </index>
     </element>

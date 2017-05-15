@@ -18,7 +18,6 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-03 12:22:32</sys_updated_on>
-            <u_translation_log_id/>
             <value>Couple</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -38,7 +37,6 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-03 12:23:06</sys_updated_on>
-            <u_translation_log_id/>
             <value>Family</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -58,7 +56,6 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-03 12:22:41</sys_updated_on>
-            <u_translation_log_id/>
             <value>Group</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -78,7 +75,6 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-03 12:21:44</sys_updated_on>
-            <u_translation_log_id/>
             <value>Solo</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -88,7 +84,7 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-04-03 12:21:44</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>1ef83cdf1371b2008ac858a12244b0fd</sys_id>
+            <sys_id>3ee1119cdbc27e009093b3d0ef961914</sys_id>
             <sys_mod_count>10</sys_mod_count>
             <sys_name>status</sys_name>
             <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>

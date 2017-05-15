@@ -18,7 +18,6 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-03 12:20:43</sys_updated_on>
-            <u_translation_log_id/>
             <value>Family</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -38,7 +37,6 @@
             <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-03 12:18:48</sys_updated_on>
-            <u_translation_log_id/>
             <value>Baby Boomer</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -58,7 +56,6 @@
             <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-03 12:19:04</sys_updated_on>
-            <u_translation_log_id/>
             <value>Generation X</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -78,7 +75,6 @@
             <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-03 12:19:16</sys_updated_on>
-            <u_translation_log_id/>
             <value>Generation Y</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -98,7 +94,6 @@
             <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-03 12:19:28</sys_updated_on>
-            <u_translation_log_id/>
             <value>Generation Z</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -108,7 +103,7 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-04-03 12:12:33</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>3fd6bc9f1371b2008ac858a12244b09b</sys_id>
+            <sys_id>7ae1119cdbc27e009093b3d0ef961909</sys_id>
             <sys_mod_count>23</sys_mod_count>
             <sys_name>age_group</sys_name>
             <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>

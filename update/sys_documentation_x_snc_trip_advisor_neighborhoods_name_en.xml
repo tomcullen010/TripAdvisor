@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-04-02 12:25:53</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>cd503f7a133972008ac858a12244b0f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Name</sys_name>
@@ -23,7 +23,6 @@
             <sys_update_name>sys_documentation_x_snc_trip_advisor_neighborhoods_name_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-02 12:25:53</sys_updated_on>
-            <u_translation_log_id/>
             <url/>
             <url_target/>
         </sys_documentation>
