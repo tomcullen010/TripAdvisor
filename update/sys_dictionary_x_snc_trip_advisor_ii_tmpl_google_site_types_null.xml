@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="type" table="x_snc_trip_advisor_site_operations">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_snc_trip_advisor_ii_tmpl_google_site_types">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Type</column_label>
+        <column_label/>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,13 +23,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>type</element>
+        <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_snc_trip_advisor_site_operations</name>
+        <name>x_snc_trip_advisor_ii_tmpl_google_site_types</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -51,18 +46,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>tom.cullen</sys_created_by>
-        <sys_created_on>2017-05-13 11:21:13</sys_created_on>
+        <sys_created_on>2017-05-15 19:13:33</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>999a66c4db7e7a009093b3d0ef961900</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Type</sys_name>
+        <sys_id>840aa6b8dbf23640e237bb01ef961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_trip_advisor_ii_tmpl_google_site_types</sys_name>
         <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_trip_advisor_site_operations_type</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_trip_advisor_ii_tmpl_google_site_types_null</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2017-05-15 18:44:44</sys_updated_on>
+        <sys_updated_on>2017-05-15 19:13:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

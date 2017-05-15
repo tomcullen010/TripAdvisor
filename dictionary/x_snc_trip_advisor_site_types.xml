@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Site Types" max_length="40" name="x_snc_trip_advisor_site_types" type="collection">
-        <element default="True" label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="Type" max_length="40" name="type" type="string"/>
-    </element>
-</database>

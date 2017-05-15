@@ -25,7 +25,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_trip_advisor_site_operations" name="x_snc_trip_advisor_site_operations" sys_domain="global" view="Default view">493da2c8db7e7a009093b3d0ef96190d</sys_ui_form>
-            <sys_ui_section caption="RadarSearch Discovery" display_value="RadarSearch Discovery" name="x_snc_trip_advisor_site_operations" sys_domain="global" view="Default view">c53da2c8db7e7a009093b3d0ef96190c</sys_ui_section>
+            <sys_ui_section caption="GoogleMaps Discovery" display_value="GoogleMaps Discovery" name="x_snc_trip_advisor_site_operations" sys_domain="global" view="Default view">c53da2c8db7e7a009093b3d0ef96190c</sys_ui_section>
             <sys_updated_by>tom.cullen</sys_updated_by>
             <sys_updated_on>2017-05-13 11:32:07</sys_updated_on>
         </sys_ui_form_section>

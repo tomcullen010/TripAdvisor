@@ -18,7 +18,7 @@
         <column_label>Location</column_label>
         <comments/>
         <create_roles/>
-        <default_value>42.3646894,-71.0565188</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -32,7 +32,7 @@
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_snc_trip_advisor_site_operations</name>
         <next_element/>
@@ -54,7 +54,7 @@
         <sys_created_on>2017-05-13 11:21:12</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>f07a2e84db7e7a009093b3d0ef96198a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Location</sys_name>
         <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
         <sys_policy/>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_trip_advisor_site_operations_location</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2017-05-13 11:32:10</sys_updated_on>
+        <sys_updated_on>2017-05-15 18:44:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

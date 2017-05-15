@@ -18,7 +18,7 @@
         <list_context_menu>false</list_context_menu>
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
-        <name>Submit Radarsearch</name>
+        <name>Submit GoogleMaps Search</name>
         <onclick/>
         <order>100</order>
         <script><![CDATA[action.setRedirectURL(current);
@@ -37,8 +37,8 @@ current.insert();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d3ee7874db7ef240e237bb01ef961920</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Submit Radarsearch</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Submit GoogleMaps Search</sys_name>
         <sys_overrides/>
         <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
         <sys_policy/>
@@ -46,7 +46,7 @@ current.insert();
         <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
         <sys_update_name>sys_ui_action_d3ee7874db7ef240e237bb01ef961920</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2017-05-15 11:26:11</sys_updated_on>
+        <sys_updated_on>2017-05-15 15:39:14</sys_updated_on>
         <table>x_snc_trip_advisor_site_operations</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

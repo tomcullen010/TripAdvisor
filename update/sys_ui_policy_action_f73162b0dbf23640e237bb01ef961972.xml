@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>place_id</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2017-05-15 18:35:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f73162b0dbf23640e237bb01ef961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>place_id</sys_name>
+        <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f73162b0dbf23640e237bb01ef961972</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2017-05-15 18:35:31</sys_updated_on>
+        <table>x_snc_trip_advisor_site_operations</table>
+        <ui_policy display_value="make fields read only when result = success">78a5c1f8db7ef240e237bb01ef9619c1</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

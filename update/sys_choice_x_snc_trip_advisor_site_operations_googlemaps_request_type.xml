@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="googlemaps_request_type" table="x_snc_trip_advisor_site_operations" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>googlemaps_request_type</element>
+            <hint>radarsearch returns place_id and location only (200 max)</hint>
+            <inactive>false</inactive>
+            <label>radarsearch - radarsearch returns place_id and location only (200 max)</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_site_operations</name>
+            <sequence>100</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2017-05-15 12:40:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76df85f0dbbef240e237bb01ef9619a3</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2017-05-15 15:42:23</sys_updated_on>
+            <value>getRadarsearch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>googlemaps_request_type</element>
+            <hint>nearbysearch returns establishment details (60 max)</hint>
+            <inactive>false</inactive>
+            <label>nearbysearch -nearbysearch returns establishment details (60 max)</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_site_operations</name>
+            <sequence>200</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2017-05-15 12:41:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3000d5f0dbbef240e237bb01ef9619a9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2017-05-15 15:43:19</sys_updated_on>
+            <value>getPlaceNearbysearch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>googlemaps_request_type</element>
+            <hint>details returns details on a specifice place_id (max 1)</hint>
+            <inactive>false</inactive>
+            <label>details -details returns details on a specifice place_id (max 1)</label>
+            <language>en</language>
+            <name>x_snc_trip_advisor_site_operations</name>
+            <sequence>300</sequence>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2017-05-15 12:44:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bac01534dbbef240e237bb01ef9619c0</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2017-05-15 15:44:22</sys_updated_on>
+            <value>getDetails</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>googlemaps_request_type</element>
+            <name>x_snc_trip_advisor_site_operations</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2017-05-15 12:40:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>5bef85f0dbbef240e237bb01ef9619a7</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_name>googlemaps_request_type</sys_name>
+            <sys_package display_value="Trip Advisor" source="x_snc_trip_advisor">41b86f36133972008ac858a12244b0fe</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Trip Advisor">41b86f36133972008ac858a12244b0fe</sys_scope>
+            <sys_update_name>sys_choice_x_snc_trip_advisor_site_operations_googlemaps_request_type</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2017-05-15 15:44:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

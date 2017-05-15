@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Google Site Types" max_length="40" name="x_snc_trip_advisor_ii_google_site_types" type="collection">
+        <element label="Active" max_length="40" name="u_active" type="string"/>
+        <element label="Types" max_length="40" name="u_types" type="string"/>
+    </element>
+</database>
